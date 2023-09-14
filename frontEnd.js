@@ -13,6 +13,11 @@ showAboutMeButton.addEventListener("click", function() {
 });
 
 showResumeButton.addEventListener("click", function() { 
+    if (pdfContainer.style.display === "none" || pdfContainer.style.display === "") {
+        pdfContainer.style.display = "block";
+        aboutMeContainer.style.display = "none"; // Hide the about me section
+    } else {
+        pdfContainer.style.display = "none"; // Hide the resume section
+    }
     pdfViewer.src = "SoftwareEngineerResumeWeb.pdf";
-    pdfContainer.style.display = "block";
 });
