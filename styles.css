@@ -1,5 +1,17 @@
-body {
+.body {
     margin: 0;
-    background: grey;
+    background: rgba(31, 31, 31, 0.623);
     text-align: center;
 }
+.tabButton {
+    font-size: 16px;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    background: white;
+    text-align: center;
+}
+.header {
+    font-weight: 100;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.774);   
