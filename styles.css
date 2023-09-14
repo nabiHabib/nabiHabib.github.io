@@ -1,6 +1,6 @@
 .body {
     margin: 0;
-    background: rgba(31, 31, 31, 0.247);
+    background: rgba(31, 31, 31, 0.623);
     text-align: center;
 }
 .tabButton {
@@ -15,3 +15,4 @@
     font-weight: 100;
     font-size: 50px;
     color: rgba(255, 255, 255, 0.774);   
+}
