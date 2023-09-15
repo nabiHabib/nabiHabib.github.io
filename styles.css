@@ -27,6 +27,10 @@
     width: 50%;
     height: 87%;
 }
+.pdfContainer {
+    margin-top: 1%;
+}
+
 /* For Mobile Users*/
 @media (max-width: 768px) {
     .tabButton {
@@ -46,5 +50,9 @@
     .pdfViewer {
         width: 100%;
         height: 60vh;
+    }
+
+    .pdfContainer {
+        margin-top: 1%;
     }
 }
