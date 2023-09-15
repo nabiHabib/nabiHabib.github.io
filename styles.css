@@ -29,6 +29,7 @@
 }
 .pdfContainer {
     margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 /* For Mobile Users*/
@@ -54,6 +55,6 @@
 
     .pdfContainer {
         margin-top: 20px;
-        height: 50%;
+        margin-bottom: 20px;
     }
 }
