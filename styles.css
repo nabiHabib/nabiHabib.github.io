@@ -24,10 +24,10 @@
     text-align: left;
 }
 .pdfViewer {
-    width: "50%";
-    height: "87%";
+    width: 50%;
+    height: 87%;
 }
-
+/* For Mobile Users*/
 @media (max-width: 768px) {
     .tabButton {
         font-size: 14px; /* Further reduce button font size */
