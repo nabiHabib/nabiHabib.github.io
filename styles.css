@@ -49,10 +49,11 @@
 
     .pdfViewer {
         width: 100%;
-        height: 80%;
+        height: 100vh;
     }
 
     .pdfContainer {
         margin-top: 20px;
+        height: 90%;
     }
 }
