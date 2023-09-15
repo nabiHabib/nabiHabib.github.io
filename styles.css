@@ -23,3 +23,19 @@
     color: white;
     text-align: left;
 }
+
+@media (max-width: 768px) {
+    .tabButton {
+        font-size: 14px; /* Further reduce button font size */
+    }
+
+    .header {
+        font-size: 24px; /* Adjust header font size */
+    }
+
+    .paragraph {
+        margin-left: 10px; /* Reduce left margin */
+        margin-right: 10px; /* Reduce right margin */
+        font-size: 16px; /* Adjust paragraph font size */
+    }
+}

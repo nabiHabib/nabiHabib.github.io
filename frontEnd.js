@@ -7,6 +7,7 @@ const aboutMeContainer = document.getElementById("aboutMeContainer");
 showAboutMeButton.addEventListener("click", function() {
     if (aboutMeContainer.style.display === "none" || aboutMeContainer.style.display === "") {
         aboutMeContainer.style.display = "block";
+        pdfContainer.style.display = "none";
     } else {
         aboutMeContainer.style.display = "none";
     }    
